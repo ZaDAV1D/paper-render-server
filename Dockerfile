@@ -6,6 +6,9 @@ COPY . .
 
 RUN chmod +x start.sh
 
+# Render will override PORT dynamically
+ENV PORT=25565
+
 EXPOSE 25565
 
-CMD ["./start.sh"]
+CMD ["bash", "start.sh"]
