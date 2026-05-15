@@ -1,2 +1,2 @@
 #!/bin/bash
-java -Xms512M -Xmx1024M -jar server.jar nogui --port $PORT
+java -Xms256M -Xmx450M -jar server.jar nogui
